@@ -7,10 +7,6 @@ public class BankAccount {
         return amount;
     }
 
-    public void setAmount(Integer amount) {
-        this.amount = amount;
-    }
-
     public void deposit(Integer sum){
         amount = amount + sum;
     }
